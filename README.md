@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Automatic humor detection has interesting use cases in modern technologies, such as chatbots and personal assistants. In this paper, we describe a novel approach for detecting humor in short texts using BERT sentence embedding. Our proposed model uses BERT to generate tokens and sentence embedding for texts. It sends embedding outputs as input to a two-layered neural network that predicts the target value. 
+Automatic humor detection has interesting use cases in modern technologies, such as chatbots and personal assistants. In this paper, we describe a novel approach for detecting humor in short texts using BERT sentence embedding. Our proposed model uses BERT to generate sentence embeddings for texts which are sent as input to a neural network that predicts the target value. 
 
 ## Dependencies
 
