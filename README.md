@@ -11,7 +11,7 @@ Automatic humor detection has interesting use cases in modern technologies, such
 
 ## Results
 
-For evaluation, we created a new dataset for humor detection consisting of 200k formal short texts (100k positive, 100k negative). Experimental results show an accuracy of 98.1 percent for the proposed method, 2.1 percent improvement compared to the best CNN and RNN models and 1.1 percent better than a fine-tuned BERT model. In addition, the combination of RNN-CNN was not successful in this task compared to the CNN model.
+For evaluation purposes, we created a new dataset for humor detection consisting of 200k formal short texts (100k positive and 100k negative). Experimental results show that our proposed method can determine humor in short texts with accuracy and an F1-score of 98.2 percent. Our 8-layer model with 110M parameters outperforms all baseline models with a large margin, showing the importance of utilizing linguistic structure in machine learning models.
 
 
 |    Method           |    Configuration                                                                         |    Accuracy     |    Precision    |    Recall    |    F1       |
