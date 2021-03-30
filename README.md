@@ -22,7 +22,7 @@ For evaluation purposes, we created a new dataset for humor detection consisting
 
 ## Trained model
 
-If you do not want to train the model from scrach, you can download the following file (my saved weights) and load it. Your code should include something like the following:
+If you do not want to train the model from scrach, you can download the following file (my saved weights) and load it. Your code should include a few lines to load the weights like the following:
 
 ```py
 model = create_model()
