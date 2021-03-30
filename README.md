@@ -20,22 +20,6 @@ For evaluation purposes, we created a new dataset for humor detection consisting
 |    COLBERT          |             |    0.982        |    0.990       |    0.974     |    0.982    |
 
 
-## Trained model
-
-If you do not want to train the model from scrach, you can download the following file (my saved weights) and load it in your code. 
-
-https://mega.nz/folder/MmB1gIIT#8ilUTK1-BO80aoXxKOIhpg
-
-Your code should include a few lines to load the weights, like this:
-
-```py
-model = create_model()
-optimizer = tf.keras.optimizers.Adam(learning_rate=1e-5)
-model.compile(loss='binary_crossentropy', optimizer=optimizer)
-model.load_weights('colbert-trained.h5')
-res = model.predict(valid_inputs)
-```
-
 
 ## Related paper
 
