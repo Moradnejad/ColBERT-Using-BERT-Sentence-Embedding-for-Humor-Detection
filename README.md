@@ -37,6 +37,6 @@ res = model.predict(valid_inputs)
 ```
 
 
-## Related paper: 
+## Related paper
 
 https://arxiv.org/abs/2004.12765
