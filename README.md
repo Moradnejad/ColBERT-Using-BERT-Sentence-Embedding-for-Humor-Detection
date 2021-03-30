@@ -22,7 +22,11 @@ For evaluation purposes, we created a new dataset for humor detection consisting
 
 ## Trained model
 
-If you do not want to train the model from scrach, you can download the following file (my saved weights) and load it. Your code should include a few lines to load the weights like the following:
+If you do not want to train the model from scrach, you can download the following file (my saved weights) and load it in your code. 
+
+https://mega.nz/folder/MmB1gIIT#8ilUTK1-BO80aoXxKOIhpg
+
+Your code should include a few lines to load the weights, like this:
 
 ```py
 model = create_model()
@@ -32,7 +36,6 @@ model.load_weights('colbert-trained.h5')
 res = model.predict(valid_inputs)
 ```
 
-https://mega.nz/folder/MmB1gIIT#8ilUTK1-BO80aoXxKOIhpg
 
 ## Related paper: 
 
