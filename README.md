@@ -21,6 +21,21 @@ For evaluation purposes, we created a new dataset for humor detection consisting
 
 
 
+## Trained model
+
+If you do not want to train the model from scrach, you can download the following folder (my saved model) and put it in the same folder as your code. 
+
+https://mega.nz/folder/MmB1gIIT#8ilUTK1-BO80aoXxKOIhpg
+
+Then, you can use the following code to load the structure and weights of the model:
+
+```py
+import keras
+
+model = keras.models.load_model("colbert-trained")
+model.summary()
+```
+
 ## Related paper
 
 https://arxiv.org/abs/2004.12765
