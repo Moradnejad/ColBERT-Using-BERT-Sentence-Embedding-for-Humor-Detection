@@ -21,7 +21,7 @@ For evaluation purposes, we created a new dataset for humor detection consisting
 
 
 
-## Trained model
+## Pre-trained model
 
 If you do not want to train the model from scrach, you can download the following folder (my saved model) and put it in the same folder as your code. 
 
