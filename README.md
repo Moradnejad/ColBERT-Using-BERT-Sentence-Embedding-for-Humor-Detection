@@ -35,6 +35,7 @@ import keras
 model = keras.models.load_model("colbert-trained")
 model.summary()
 ```
+I uploaded a sample code use the pretrained model to simply load and predict under 2 minutes: [using-pretrained-model.ipynb](https://github.com/Moradnejad/ColBERT-Using-BERT-Sentence-Embedding-for-Humor-Detection/blob/master/using-pretrained-model.ipynb)
 
 ## Related paper
 
