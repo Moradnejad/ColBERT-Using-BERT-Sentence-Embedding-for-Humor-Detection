@@ -39,11 +39,13 @@ I uploaded a draft sample code that uses the pretrained model to simply load and
 
 ## How to cite
 
+```
 @article{annamoradnejad2020colbert,
   title={Colbert: Using bert sentence embedding for humor detection},
   author={Annamoradnejad, Issa and Zoghi, Gohar},
   journal={arXiv preprint arXiv:2004.12765},
   year={2020}
 }
+```
 
 Paper: https://arxiv.org/abs/2004.12765
