@@ -37,6 +37,13 @@ model.summary()
 ```
 I uploaded a draft sample code that uses the pretrained model to simply load and predict under 2 minutes: [colbert-using-pretrained-model.ipynb](https://github.com/Moradnejad/ColBERT-Using-BERT-Sentence-Embedding-for-Humor-Detection/blob/master/colbert-using-pretrained-model.ipynb)
 
-## Related paper
+## How to cite
 
-https://arxiv.org/abs/2004.12765
+@article{annamoradnejad2020colbert,
+  title={Colbert: Using bert sentence embedding for humor detection},
+  author={Annamoradnejad, Issa and Zoghi, Gohar},
+  journal={arXiv preprint arXiv:2004.12765},
+  year={2020}
+}
+
+Paper: https://arxiv.org/abs/2004.12765
