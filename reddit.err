@@ -1,0 +1,15 @@
+DeprecationWarning: 'source deactivate' is deprecated. Use 'conda deactivate'.
+[nltk_data] Downloading package punkt to /home/ambaranov/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+WARNING:tensorflow:SavedModel saved prior to TF 2.5 detected when loading Keras model. Please ensure that you are saving the model with model.save() or tf.keras.models.save_model(), *NOT* tf.saved_model.save(). To confirm, there should be a file named "keras_metadata.pb" in the SavedModel directory.
+2023-02-20 01:15:07.251391: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2023-02-20 01:15:07.252063: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: cn-014
+2023-02-20 01:15:07.252506: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: cn-014
+2023-02-20 01:15:07.254011: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:200] libcuda reported version is: 515.43.4
+2023-02-20 01:15:07.254059: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:204] kernel reported version is: 515.43.4
+2023-02-20 01:15:07.254069: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:310] kernel version seems to match DSO: 515.43.4
+2023-02-20 01:15:07.255383: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+  0%|          | 0/12 [00:00<?, ?it/s]Truncation was not explicitly activated but `max_length` is provided a specific value, please use `truncation=True` to explicitly truncate examples to max length. Defaulting to 'longest_first' truncation strategy. If you encode pairs of sequences (GLUE-style) with the tokenizer you can select this strategy more precisely by providing a specific strategy to `truncation`.
+2023-02-20 01:15:32.979470: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+  8%|▊         | 1/12 [00:35<06:34, 35.86s/it] 17%|█▋        | 2/12 [04:02<22:45, 136.56s/it] 25%|██▌       | 3/12 [04:23<12:31, 83.51s/it]  33%|███▎      | 4/12 [54:30<2:45:03, 1237.90s/it] 42%|████▏     | 5/12 [56:08<1:36:27, 826.84s/it]  50%|█████     | 6/12 [58:27<59:17, 592.88s/it]   58%|█████▊    | 7/12 [59:26<34:51, 418.22s/it] 67%|██████▋   | 8/12 [1:00:22<20:12, 303.04s/it] 75%|███████▌  | 9/12 [1:00:47<10:48, 216.05s/it] 83%|████████▎ | 10/12 [1:01:19<05:18, 159.18s/it] 92%|█████████▏| 11/12 [1:01:44<01:58, 118.24s/it]100%|██████████| 12/12 [1:13:01<00:00, 288.30s/it]100%|██████████| 12/12 [1:13:01<00:00, 365.16s/it]
