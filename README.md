@@ -41,12 +41,6 @@ I uploaded a draft sample code that uses the pretrained model to simply load and
 Code and dataset is released under MIT liscense.
 
 ```
-@article{annamoradnejad2020colbert,
-  title={Colbert: Using bert sentence embedding for humor detection},
-  author={Annamoradnejad, Issa and Zoghi, Gohar},
-  journal={arXiv preprint arXiv:2004.12765},
-  year={2020}
-}
+Annamoradnejad, I., & Zoghi, G. (2024). ColBERT: Using BERT sentence embedding in parallel neural networks for computational humor. Expert Systems with Applications, 249, 123685.
 ```
-
-Paper: https://arxiv.org/abs/2004.12765
+2024 Paper: https://www.sciencedirect.com/science/article/abs/pii/S0957417424005517
