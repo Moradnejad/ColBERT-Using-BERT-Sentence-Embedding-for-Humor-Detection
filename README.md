@@ -1,8 +1,8 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/colbert-using-bert-sentence-embedding-for/humor-detection-on-200k-short-texts-for-humor-1)](https://paperswithcode.com/sota/humor-detection-on-200k-short-texts-for-humor-1?p=colbert-using-bert-sentence-embedding-for)
 
-## Introduction
+## Paper Abstract
 
-Automatic humor detection has interesting use cases in modern technologies, such as chatbots and personal assistants. In this paper, we describe a novel approach for detecting humor in short texts using BERT sentence embedding. Our proposed model uses BERT to generate sentence embeddings for texts which are sent as input to a neural network that predicts the target value. 
+Automatic humor detection has compelling use cases in modern technologies, such as humanoid robots, chatbots, and virtual assistants. In this paper, we propose a novel approach for detecting and rating humor in short texts based on a popular linguistic theory of humor. The proposed technical method initiates by separating sentences of the given text and utilizing the BERT model to generate embeddings for each one. The embeddings are fed to a neural network as parallel lines of hidden layers in order to determine the congruity and other latent relationships between the sentences, and eventually, predict humor in the text. We accompany the paper with a novel dataset consisting of 200,000 short texts, labeled for the binary task of humor detection. In addition to evaluating our work on the novel dataset, we participated in a live machine-learning competition to rate humor in Spanish tweets. The proposed model obtained F1 scores of 0.982 and 0.869 in the performed experiments which outperform general and state-of-the-art models. The evaluation results confirm the model’s strength and robustness and suggest two important factors in achieving high accuracy in the current task: (1) usage of sentence embeddings and (2) utilizing the linguistic structure of humor in designing the proposed model.
 
 ## Dependencies
 
